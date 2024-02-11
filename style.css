@@ -91,3 +91,14 @@ video {
   width: 100%;
   z-index: -10;
 }
+.player-container {
+    position: relative;
+  }
+  
+  .play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
